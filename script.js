@@ -33,7 +33,7 @@ function wrapper(countInRow) {
           pop.className = 'circle ' + color;
           pop.onclick = function() {
             this.classList.toggle("pressed");
-            window.navigator.vibrate(5);
+            window.navigator.vibrate(30);
             boopMe();
           };
           row.appendChild(pop);
