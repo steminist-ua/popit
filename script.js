@@ -1,7 +1,6 @@
 const colors = ["r", "o", "y", "g", "b", "p"];
 const popit = document.getElementById("popit");
 
-
 function setupSynth() {
     window.synth = new Tone.Synth({
         oscillator: {

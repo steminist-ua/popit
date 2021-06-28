@@ -1,9 +1,9 @@
 body {
     align-items: center;
-    display: flex;
-    height: 95vh;
+    display: flex;    
     justify-content: center;
     overflow: hidden;
+    padding-top: 50px;
 }
 
 .popit {
@@ -40,6 +40,15 @@ body {
 .g {background-color: #69d437}
 .b {background-color: #3cc1f6}
 .p {background-color: #bca3f6}
+
+.about{
+    position: fixed;
+    bottom: 0px;
+}
+.about a{
+    text-decoration: none;
+    color: #0366d6;
+}
 
 @media (max-width: 700px) {
     .circle {
