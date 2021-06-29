@@ -42,11 +42,15 @@ function wrapper(countInRow) {
       }
 }
 
-if(window.screen.width < 1070){
-    wrapper(5);
-    wrapper(5);
+if(window.screen.width < 710){
+    wrapper(7);
+    wrapper(7);
 }
-else{
+if(window.screen.width >= 710 && window.screen.width <= 1024){
+  wrapper(10);
+  wrapper(10);
+}
+if(window.screen.width > 1024){
     wrapper(13);
 }
 
